@@ -5,7 +5,7 @@ import React, { useEffect, useReducer } from 'react';
 import { useForm } from 'react-hook-form';
 import { toast } from 'react-toastify';
 import Layout from '../../../components/Layout';
-import { getError } from '../../../utils/error';
+import getError from '../../../utils/error';
 
 function reducer(state, action) {
   switch (action.type) {

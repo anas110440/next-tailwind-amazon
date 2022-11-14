@@ -13,7 +13,7 @@ import {
 } from 'chart.js';
 import React, { useEffect, useReducer } from 'react';
 import Layout from '../../components/Layout';
-import { getError } from '../../utils/error';
+import getError from '../../utils/error';
 
 ChartJS.register(
   CategoryScale,
